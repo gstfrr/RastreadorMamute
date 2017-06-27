@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         //url do servidor
         String url = "http://177.105.60.225:7000/visual.html";
+        //String url = "http://uflamamute.000webhostapp.com";
 
         WebView webview = new WebView(this);
         webview.setWebViewClient(new WebViewClient());
